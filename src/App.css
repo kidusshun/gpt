@@ -30,7 +30,7 @@ a {
         background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
 }
 
-.gradient_text {
+.gradient__text {
     background: var(--gradient-text);
     background-clip: text;
     -webkit-background-clip: text;
