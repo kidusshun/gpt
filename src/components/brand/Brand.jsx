@@ -8,12 +8,20 @@ import shopify from '../../assets/shopify.png'
 
 const Brand = () => {
   return (
-    <div className='gpt3__brand'>
-      <div className='gpt3__brand-content'>
+    <div className='gpt3__brand section__padding'>
+      <div>
         <img src={google} alt="Google" />
+      </div>
+      <div>
         <img src={slack} alt="Slack" />
+      </div>
+      <div>
         <img src={atlassian} alt="Atlassian" />
+      </div>
+      <div>
         <img src={dropbox} alt="Dropbox" />
+      </div>
+      <div>
         <img src={shopify} alt="shopify" />
       </div>
     </div>
