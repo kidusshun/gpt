@@ -1,13 +1,33 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './Header.css';
 import people from '../../assets/people.png';
 import ai from '../../assets/ai.png';
 
+
 const Header = () => {
+  useEffect(() => {
+    const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    document.querySelector('span').onmouseover = event => {
+      let iterations =0;
+      const interval = setInterval(() => {
+        event.target.innerText = event.target.innerText.split("").map((letter,index) => {
+          if(index < iterations){
+            console.log(event.target.dataset.value[index]);
+            return event.target.dataset.value[index]
+          }
+          return letters[Math.floor(Math.random()*26)];
+        } ).join("");
+        
+        if(iterations >= event.target.dataset.value.length) clearInterval(interval);
+        iterations +=1/3;
+      },30)
+    }
+  }, [])
+  
   return (
     <div className='gpt3__header section__padding' id='home'>
       <div className='gpt3__header-content'>
-        <h1 className='gradient__text'>Let's Build Something amazing with GPT-3 OpenAI</h1>
+        <h1 className='gradient__text'>Let's Build Something amazing with GPT-3 <span data-value="OPENAI">OPENAI</span></h1>
         <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
         <div className='gpt3__header-content__input'>
           <input type="email" placeholder='Your Email Address' />
