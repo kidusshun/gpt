@@ -3,21 +3,21 @@ import './Features.css';
 import Feature from "../../components/feature/Feature";
 const featuresData = [
   {
-    title:'Improving end distrusts instantly ',
-    text:'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.'
+    title:'Natural language processing ',
+    text:'GPT-3 is a powerful language model that can understand and generate text in natural language. This feature allows users to communicate with the system using everyday language and receive responses that sound like they were written by a human.'
   },
   {
-    title:'Become the tended active',
-    text:'Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.'
+    title:'Customization',
+    text:'GPT-3 can be fine-tuned to generate text specific to a particular domain or task. This feature allows users to train the system on their own data and improve the accuracy of the generated text.'
   },
   {
-    title:'Message or am nothing',
-    text:'Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.'
+    title:'Multilingual support',
+    text:'GPT-3 can generate text in several languages, including English, Spanish, German, French, Chinese, and more. This feature allows users to communicate with a global audience and expand the reach of their content.'
   },
   {
-    title:'Really boy law county',
-    text:'Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush.'
-  },
+    title:'Text completion',
+    text:'GPT-3 can assist users in completing their writing tasks by generating suggestions for text based on the input provided. This feature can be useful for tasks such as writing emails, social media posts, or even longer documents like essays or reports. Users can save time and effort by using GPT-3 to generate suggestions and then editing or modifying them as needed.'
+  }
 ]
 
 const Features = () => {

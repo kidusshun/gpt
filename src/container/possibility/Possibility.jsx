@@ -11,7 +11,7 @@ const Possibility = () => {
       <div className='gpt3__possibility-content'>
         <h4>Request Early Access to Get Started</h4>
         <h1 className='gradient__text'>The possibilities are beyond your imagination</h1>
-        <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
+        <p> From language translation to decision-making, customer service to content creation, the potential of this AI model is limitless. With advanced machine learning and natural language processing, GPT-3 is revolutionizing how we interact with technology and each other.</p>
         <h4>Request Early Access to Get Started</h4>
       </div>
     </div>
