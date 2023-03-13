@@ -8,8 +8,8 @@ const WhatGPT = () => {
       <div className='gpt3__whatgpt3-feature'>
         <Feature 
           title="What is GPT-3" 
-          text="We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by."
-        />
+          text="The cutting-edge language model that's taking the world by storm. GPT-3 can generate natural language text on a wide range of topics, with unparalleled coherence, fluency, and creativity." 
+          />
       </div>
       <div className='gpt3__whatgpt3-heading'>
         <h1 className='gradient__text'>The possibilities are beyond your imagination</h1>
@@ -18,15 +18,15 @@ const WhatGPT = () => {
       <div className='gpt3__whatgpt3-container'>
         <Feature 
           title="Chatbots" 
-          text="We so opinion friends me message as delight. Whole front do of plate heard oh ought." 
+          text="We so opinion friends me message as delight. Whole front do of plate heard oh ought."
         />
         <Feature 
-          title="Knowledgebase" 
-          text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" 
+          title="Knowledgebase"
+          text="With an unprecedented 175 billion parameters and an ability to generate human-like text, GPT-3 is the most advanced language model ever created." 
         />
         <Feature 
           title="Education"
-          text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b"
+          text=" Whether you need language translation, question answering, summarization, or text completion, GPT-3 has got you covered. Whether you need language translation, question answering, summarization, or text completion, GPT-3 has got you covered."
         />
 
       </div>
